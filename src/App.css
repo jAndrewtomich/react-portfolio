@@ -72,17 +72,17 @@
   }
   #mainNav .navbar-brand {
     padding: 10px 20px;
-    color: #fff;
+    color: #212529;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #0085A1;
   }
   #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
-    color: #fff;
+    color: #212529;
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-    color: #fff;
+    color: #0085A1;
   }
 }
 
@@ -120,7 +120,7 @@
   }
 }
 
-/* Masthead for Overlay and dynamic navbar */
+/* Masthead for Overlay*/
 header.masthead {
   margin-bottom: 50px;
   background: no-repeat center center;

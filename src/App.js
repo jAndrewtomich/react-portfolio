@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 
+import { Navbar, Nav } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
@@ -8,6 +10,17 @@ import './App.css';
 function App() {
   return (
     <div>
+      <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top" id="mainNav">
+        <Container>
+          <Navbar.Brand href="#">AT</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="justify-content-end" style={{ width: "100%" }}>
+              <Nav.Link href="#about">About</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
