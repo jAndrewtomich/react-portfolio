@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 
-import { Navbar, Nav } from 'react-bootstrap';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
@@ -47,7 +48,7 @@ function App() {
           </Card.Text>
           <Button variant="primary">Let's GO!</Button>
         </Card.Body>
-      </Card>
+      </Card>a
     </div>
   );
 }
