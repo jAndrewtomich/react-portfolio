@@ -48,7 +48,7 @@ function App() {
           </Card.Text>
           <Button variant="primary">Let's GO!</Button>
         </Card.Body>
-      </Card>a
+      </Card>
     </div>
   );
 }
