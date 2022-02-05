@@ -38,6 +38,8 @@ function App() {
           </a>
         </header>
       </div>
+      <svg width="960" height="500"></svg>
+      <script src="/src/scripts/bundle.js"></script>
       <Card style={{ color: 'black', width: '18em' }}>
         <Card.Img variant="top" src={logo} />
         <Card.Body>
